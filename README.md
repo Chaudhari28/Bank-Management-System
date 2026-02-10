@@ -7,6 +7,7 @@ Features
 - 💳 ATM Operations: Deposit, Withdraw, Balance Inquiry
 - 📊 Mini Statement: View recent transactions
 - 🎨 Graphical User Interface (GUI) using Swing and AWT
+
 Technologies Used
 - Java (Core + Swing + AWT)
 - Object-Oriented Programming (OOP) concepts
