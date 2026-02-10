@@ -22,5 +22,7 @@ Technologies Used
 - Error Handling: Can be extended to validate incorrect credentials and display messages.
 - Scalability: Serves as the foundation for connecting to account management and transaction modules.
 
+Screenshot
+<img width="1061" height="625" alt="image" src="https://github.com/user-attachments/assets/4836c36c-1afc-4736-9af5-5f6d51429f07" />
 
 
