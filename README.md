@@ -25,4 +25,37 @@ Technologies Used
 Screenshot
 <img width="1061" height="625" alt="image" src="https://github.com/user-attachments/assets/4836c36c-1afc-4736-9af5-5f6d51429f07" />
 
+🏦 Signup Form (Java Swing)
+📌 How This Page Came About
+- Started as part of a Bank Management System project to simulate real-world banking workflows.
+- The Signup Page (Page 1) was designed to collect personal details from users before account creation.
+- Built using Java Swing for GUI because it’s lightweight, flexible, and widely used for desktop applications.
+- Added JDateChooser (from the Toedter library) to provide a user-friendly calendar for selecting Date of Birth.
+- Used Random class to generate a unique Application Form Number for each new applicant.
+- Applied custom styling (fonts, colors, icons) to make the form look professional and visually appealing.
+- Implemented radio buttons for Gender and Marital Status to ensure clean, mutually exclusive selections.
+- Added a Next button with ActionListener to prepare for navigation to subsequent pages (future expansion).
+
+📌 How It Works
+- When you run Signup.java, the application window opens with the Bank icon and a randomly generated form number.
+- Users fill in their details: name, father’s name, DOB, gender, email, marital status, address, city, pin code, and state.
+- The Date Picker allows easy selection of DOB instead of manual typing.
+- Radio buttons ensure only one option can be selected for gender and marital status.
+- Clicking Next will trigger the actionPerformed() method, where future logic (like saving to a database or moving to Page 2) can be added.
+
+Screenshot
+<img width="1070" height="990" alt="image" src="https://github.com/user-attachments/assets/80896c0b-a2ff-4cb7-91d3-506e03ce61c1" />
+
+🚀 What’s Next
+- Database Integration: Connect the Signup form with a MySQL database using JDBC.
+- Table Creation: Design tables to store user details (Name, DOB, Gender, Email, Marital Status, Address, City, Pin code, State).
+- Data Insertion: Write SQL queries to insert form data into the database when the user clicks Next.
+- Navigation: Extend the Next button functionality to move to Page 2 after saving Page 1 details.
+- Validation: Add input checks (e.g., email format, pin code length) before saving data.
+- Scalability: Prepare the project for multi-page forms and complete account creation workflow.
+
+
+
+
+
 
