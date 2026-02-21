@@ -54,6 +54,45 @@ Screenshot
 - Validation: Add input checks (e.g., email format, pin code length) before saving data.
 - Scalability: Prepare the project for multi-page forms and complete account creation workflow.
 
+🏦 Bank Management System – Signup Module (Java + MySQL)
+This project is a Bank Management System Signup Module developed using Java Swing for the frontend and MySQL for the backend database.
+📌 Features
+User-friendly Application Form (Page 1) GUI
+Collects personal details:
+-Name
+-Father’s Name
+-Date of Birth
+-Gender
+-Email
+-Marital Status
+-Address
+-City
+-Pincode
+-State
+-Auto-generates a unique Application Form Number
+-Stores user data into MySQL database
+-Navigates to next page (Signup2) after successful submission
+
+🛠️ Technologies Used
+Java (Swing & AWT) – GUI Development
+-MySQL – Database
+-JDBC – Database Connectivity
+-JCalendar (JDateChooser) – Date Picker
+
+🗄️ Database
+-Database Name: bankSystem
+-Table Name: signup
+-Stores all applicant details submitted through the form.
+
+📂 Project Structure
+-Signup.java → Main application form
+-Signup2.java → Next page of form
+-Con.java → Database connection class
+
+Screenshot
+<img width="1073" height="128" alt="image" src="https://github.com/user-attachments/assets/c2f0d2e5-9dcd-4763-91e5-e9939095be9d" />
+
+
 
 
 
