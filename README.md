@@ -92,6 +92,28 @@ Java (Swing & AWT) – GUI Development
 Screenshot
 <img width="1073" height="128" alt="image" src="https://github.com/user-attachments/assets/c2f0d2e5-9dcd-4763-91e5-e9939095be9d" />
 
+📌 Signup Page 2 – Additional Details
+This is the second page of the account opening form in my Bank Management System project built using Java Swing.
+🔹Features Implemented
+Dropdown selections for:
+-Religion
+-Category
+-Income
+-Educational Qualification
+-Occupation
+-Input fields for:
+-PAN Number
+-Aadhar Number
+-Radio button selections for:
+-Senior Citizen (Yes/No)
+-Existing Account (Yes/No)
+-Dynamic Form Number display
+-Custom UI styling using Java Swing components
+-Bank logo integration
+-Navigation button to proceed to the next page
+
+Screenshot
+<img width="1044" height="917" alt="image" src="https://github.com/user-attachments/assets/9819e08c-a96c-46d4-9645-42a39987fe40" />
 
 
 
