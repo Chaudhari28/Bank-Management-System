@@ -115,7 +115,28 @@ Dropdown selections for:
 Screenshot
 <img width="1044" height="917" alt="image" src="https://github.com/user-attachments/assets/9819e08c-a96c-46d4-9645-42a39987fe40" />
 
+📌Signup Page 3 – Account Details Module
+This module is part of my Bank Management System project built using Java (Swing) and MySQL.
+✅Features Implemented:
+-Account Type selection
+-Saving Account
+-Fixed Deposit
+-Current Account
+-Recurring Deposit Account
+-Auto-generated Card Number (16-digit format)
+-Auto-generated 4-digit PIN
+-Banking Services Selection:
+-ATM Card
+-Internet Banking
+-Mobile Banking
+-Email Alerts
+-Check Book
+-E-Statement
+-Declaration Checkbox
+-Submit & Cancel functionality
 
+Screenshot
+<img width="1038" height="987" alt="image" src="https://github.com/user-attachments/assets/49aec771-0d5b-4468-a36a-2ff566aaa147" />
 
 
 
