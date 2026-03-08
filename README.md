@@ -138,6 +138,55 @@ This module is part of my Bank Management System project built using Java (Swing
 Screenshot
 <img width="1038" height="987" alt="image" src="https://github.com/user-attachments/assets/49aec771-0d5b-4468-a36a-2ff566aaa147" />
 
+📌Database creation for signupthree page and login page
+Today I implemented the database structure for the final step of account creation in the Bank Management System built with Java, Swing, and MySQL.
+Tables Created
+
+1. signupthree
+This table stores the final account details selected by the user during registration.
+
+Fields included:
+form_no – unique form number of the applicant
+account_type – type of bank account (Saving / Current / etc.)
+card_number – generated ATM card number
+pin – user PIN for ATM/login
+facility – selected banking facilities (ATM card, Internet banking, etc.)
+
+SQL
+
+create table signupthree(
+form_no varchar(30),
+account_type varchar(40),
+card_number varchar(30),
+pin varchar(30),
+facility varchar(200)
+);
+<img width="625" height="125" alt="image" src="https://github.com/user-attachments/assets/bb75f44d-ded6-4a33-b12a-0e62637c1c7e" />
+
+2. login
+This table is used for authentication in the banking system.
+
+Fields included:
+form_no
+card_number
+pin
+
+SQL
+
+create table login(
+form_no varchar(30),
+card_number varchar(50),
+pin varchar(30)
+);
+<img width="604" height="142" alt="image" src="https://github.com/user-attachments/assets/adf2a841-7e81-4a68-aaa7-b1491f654680" />
+
+Purpose
+
+These tables allow the system to:
+Store the user's final account details
+Generate ATM card and PIN
+Enable secure login to the banking system
+
 
 
 
