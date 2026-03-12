@@ -187,6 +187,21 @@ Store the user's final account details
 Generate ATM card and PIN
 Enable secure login to the banking system
 
+📌Bank Management System – Deposit Module
+This project is part of a Java-based Bank Management System that simulates an ATM interface. The Deposit module allows users to enter an amount and store the transaction securely in a database.
+
+Features
+-ATM-style graphical interface built using Java Swing
+-Deposit amount input system
+-Transaction recording with PIN, Date, Type, and Amount
+-MySQL database integration
+-Instant confirmation message after successful deposit
+
+Screenshot:
+<img width="1886" height="1019" alt="image" src="https://github.com/user-attachments/assets/ae51f5c8-7f8e-4ef0-933e-a5032ccc03e1" />
+
+Database Structure:
+<img width="917" height="172" alt="image" src="https://github.com/user-attachments/assets/2e256da6-7aa7-440d-9d2e-f2b84f7a1c98" />
 
 
 
