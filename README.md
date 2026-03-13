@@ -187,7 +187,7 @@ Store the user's final account details
 Generate ATM card and PIN
 Enable secure login to the banking system
 
-📌Bank Management System – Deposit Module
+📌Deposit Module
 This project is part of a Java-based Bank Management System that simulates an ATM interface. The Deposit module allows users to enter an amount and store the transaction securely in a database.
 
 Features
@@ -203,5 +203,24 @@ Screenshot:
 Database Structure:
 <img width="917" height="172" alt="image" src="https://github.com/user-attachments/assets/2e256da6-7aa7-440d-9d2e-f2b84f7a1c98" />
 
+📌Withdrawal and BalanceEnquiry
+-Implemented the Withdrawal module where users can enter an amount and withdraw money from their account.
+-Before processing the withdrawal, the system checks the user’s current balance by reading all previous transactions from the database.
+-If the balance is sufficient, the withdrawal transaction is recorded in the bank table with the user’s PIN, date, transaction type, and amount.
+-Added validation to prevent withdrawals when the balance is insufficient.
+-Implemented the Balance Enquiry feature that calculates the user’s current balance.
+-The system loops through all deposit and withdrawal records related to the user’s PIN and calculates the final balance dynamically.
+-The calculated balance is then displayed on the ATM interface using Java Swing.
+-Used JDBC to connect Java with MySQL for storing and retrieving transaction data.
+-Implemented button event handling for actions like Withdraw and Back to navigate between ATM screens.
+
+Screenshot:
+<img width="1060" height="596" alt="image" src="https://github.com/user-attachments/assets/3fe0105f-550b-4825-9031-3d5a3c04eaae" />
+<img width="1528" height="980" alt="image" src="https://github.com/user-attachments/assets/6b0e1f6f-155c-4bb4-84d4-1006f6bff092" />
+<img width="1528" height="973" alt="image" src="https://github.com/user-attachments/assets/cca480c3-b98e-4031-93df-d9307d99373d" />
+<img width="1530" height="980" alt="image" src="https://github.com/user-attachments/assets/884cd652-a94c-4f55-bb82-bb934c7669eb" />
+
+SQL:
+<img width="885" height="252" alt="image" src="https://github.com/user-attachments/assets/c8303f5c-48df-40f9-a7aa-9623c863e153" />
 
 
