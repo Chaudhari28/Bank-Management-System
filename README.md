@@ -1,6 +1,7 @@
 # Bank-Management-System
 Bank Management System is a Java Swing and AWT desktop app that simulates core banking operations. It offers secure login, account management, deposits, withdrawals, balance inquiry, and mini statements, showcasing OOP concepts with a simple, user‑friendly GUI.
 The Bank Management System is a desktop application built using Java Swing and AWT. It provides a simple, interactive interface that simulates core banking operations such as account login, PIN authentication, and transaction handling. This project demonstrates how Java can be used to design a structured, user-friendly system for managing basic banking workflows.
+
 Features
 - 🔐 Secure Login with Card Number and PIN
 - 🏦 Account Management: Create and manage customer accounts
@@ -222,5 +223,29 @@ Screenshot:
 
 SQL:
 <img width="885" height="252" alt="image" src="https://github.com/user-attachments/assets/c8303f5c-48df-40f9-a7aa-9623c863e153" />
+
+📌Fast Cash
+The Fast Cash module allows users to withdraw predefined amounts quickly (₹100, ₹500, ₹1000, ₹2000, etc.). The system checks the available balance and records the withdrawal transaction in the database.
+
+📌PIN Change
+The PIN Change module allows users to update their ATM PIN. The system verifies the new PIN and confirm PIN, then updates the PIN in the database.
+
+📌Mini Statement
+The Mini Statement module displays recent transaction details such as date, type, and amount. It also calculates and shows the current account balance based on transaction history.
+
+bank.management.system
+│
+├── Login.java
+├── Signup.java
+├── Signup2.java
+├── Signup3.java
+├── main_Class.java
+├── Deposit.java
+├── Withdrawal.java
+├── BalanceEnquiry.java
+├── FastCash.java
+├── Pin.java
+├── mini.java
+└── Con.java
 
 
